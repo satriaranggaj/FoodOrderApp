@@ -1,0 +1,268 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "satria",
+      "password": "password",
+      "name": "Satria R. J.",
+      "addres": "Kranggan Lembur, RT 001/005, Jati Rangga "
+    }
+  ],
+  "slider": [
+    { "id": 1, "image": "img/header/slide1.jpg" },
+    { "id": 2, "image": "img/header/slide2.jpg" },
+    { "id": 3, "image": "img/header/slide3.jpg" }
+  ],
+  "categories": [
+    { "id": 1, "name": "Burger", "icon_category": "<i class=\"fa-solid fa-burger\"></i>" },
+    {
+      "id": 2,
+      "name": "Fried Chicken",
+      "icon_category": "<i class=\"fa-solid fa-drumstick-bite\"></i>"
+    },
+    { "id": 3, "name": "Drink", "icon_category": "<i class=\"fa-solid fa-mug-saucer\"></i>" },
+    { "id": 4, "name": "Dessert", "icon_category": "<i class=\"fa-solid fa-ice-cream\"></i>" },
+    { "id": 5, "name": "Snack", "icon_category": "<i class=\"fa-solid fa-bacon\"></i>" },
+    { "id": 6, "name": "Pizza", "icon_category": "<i class=\"fa-solid fa-pizza-slice\"></i>" }
+  ],
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "McDonald's",
+      "distance": 2,
+      "delivery_time": 40
+    },
+    {
+      "id": 2,
+      "name": "KFC",
+      "distance": 3,
+      "delivery_time": 30
+    },
+    {
+      "id": 3,
+      "name": "Pizza Hut",
+      "distance": 5,
+      "delivery_time": 45
+    },
+    {
+      "id": 4,
+      "name": "Domino's Pizza",
+      "distance": 4,
+      "delivery_time": 35
+    },
+    {
+      "id": 5,
+      "name": "Burger King",
+      "distance": 1,
+      "delivery_time": 25
+    }
+  ],
+  "menus": [
+    {
+      "id": 1,
+      "restaurant_id": 1,
+      "category_id": 1,
+      "name": "Double Deluxe Patty",
+      "description": "Burger lezat dengan dua lapis patty dan saus spesial.",
+      "price": 32000
+    },
+    {
+      "id": 2,
+      "restaurant_id": 1,
+      "category_id": 2,
+      "name": "Double Spicy Chicken Wing",
+      "description": "Sayap ayam pedas dengan bumbu khas.",
+      "price": 25000
+    },
+    {
+      "id": 3,
+      "restaurant_id": 1,
+      "category_id": 3,
+      "name": "Coca Cola",
+      "description": "Minuman bersoda menyegarkan.",
+      "price": 10000
+    },
+    {
+      "id": 4,
+      "restaurant_id": 1,
+      "category_id": 4,
+      "name": "McFlurry",
+      "description": "Es krim lezat dengan taburan topping.",
+      "price": 15000
+    },
+    {
+      "id": 5,
+      "restaurant_id": 2,
+      "category_id": 1,
+      "name": "Zinger Burger",
+      "description": "Burger dengan patty ayam renyah dan saus pedas.",
+      "price": 30000
+    },
+    {
+      "id": 6,
+      "restaurant_id": 2,
+      "category_id": 3,
+      "name": "Pepsi",
+      "description": "Minuman soda favorit di KFC.",
+      "price": 8000
+    },
+    {
+      "id": 7,
+      "restaurant_id": 2,
+      "category_id": 5,
+      "name": "French Fries",
+      "description": "Kentang goreng gurih dan renyah.",
+      "price": 12000
+    },
+    {
+      "id": 8,
+      "restaurant_id": 3,
+      "category_id": 6,
+      "name": "Margarita Pizza",
+      "description": "Pizza klasik dengan saus tomat dan keju mozzarella.",
+      "price": 60000
+    },
+    {
+      "id": 9,
+      "restaurant_id": 3,
+      "category_id": 6,
+      "name": "Pepperoni Pizza",
+      "description": "Pizza dengan irisan pepperoni dan saus tomat.",
+      "price": 65000
+    },
+    {
+      "id": 10,
+      "restaurant_id": 4,
+      "category_id": 6,
+      "name": "Hawaiian Pizza",
+      "description": "Pizza dengan topping ham, nanas, dan keju mozzarella.",
+      "price": 70000
+    },
+    {
+      "id": 11,
+      "restaurant_id": 4,
+      "category_id": 6,
+      "name": "BBQ Chicken Pizza",
+      "description": "Pizza dengan topping ayam BBQ, keju, dan saus BBQ.",
+      "price": 75000
+    },
+    {
+      "id": 12,
+      "restaurant_id": 5,
+      "category_id": 1,
+      "name": "Whopper Burger",
+      "description": "Burger besar dengan patty sapi, sayuran, dan saus khas.",
+      "price": 35000
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "menu_id": 1,
+      "user": "Satria",
+      "rating": 5,
+      "message": "Sangat lezat dan memuaskan!"
+    },
+    {
+      "id": 2,
+      "menu_id": 1,
+      "user": "Jane Doe",
+      "rating": 3,
+      "message": "Rasanya lumayan, tapi agak mahal."
+    },
+    {
+      "id": 3,
+      "menu_id": 1,
+      "user": "John Doe",
+      "rating": 1,
+      "message": "Tidak sesuai dengan harapan saya."
+    },
+    { "id": 4, "menu_id": 2, "user": "Satria", "rating": 3, "message": "Cukup pedas dan enak." },
+    {
+      "id": 5,
+      "menu_id": 2,
+      "user": "Jane Doe",
+      "rating": 2,
+      "message": "Terlalu pedas untuk saya."
+    },
+    { "id": 6, "menu_id": 2, "user": "John Doe", "rating": 1, "message": "Rasa terlalu kuat." },
+    { "id": 7, "menu_id": 3, "user": "Satria", "rating": 4, "message": "Menyegarkan!" },
+    {
+      "id": 8,
+      "menu_id": 3,
+      "user": "Jane Doe",
+      "rating": 5,
+      "message": "Cocok sebagai pendamping makanan."
+    },
+    { "id": 9, "menu_id": 4, "user": "Satria", "rating": 5, "message": "Es krim terbaik!" },
+    { "id": 10, "menu_id": 4, "user": "Jane Doe", "rating": 4, "message": "Cocok di lidah." },
+    { "id": 11, "menu_id": 5, "user": "Satria", "rating": 4, "message": "Patty ayamnya enak." },
+    { "id": 12, "menu_id": 5, "user": "Rina", "rating": 5, "message": "Saus pedasnya cocok." },
+    { "id": 13, "menu_id": 6, "user": "Budi", "rating": 5, "message": "Soda menyegarkan." },
+    { "id": 14, "menu_id": 6, "user": "Rina", "rating": 4, "message": "Rasa standar, tapi oke." },
+    {
+      "id": 15,
+      "menu_id": 7,
+      "user": "Satria",
+      "rating": 5,
+      "message": "Kentangnya renyah dan enak!"
+    },
+    {
+      "id": 16,
+      "menu_id": 8,
+      "user": "Satria",
+      "rating": 5,
+      "message": "Pizza Margarita-nya enak banget!"
+    },
+    {
+      "id": 17,
+      "menu_id": 9,
+      "user": "Jane Doe",
+      "rating": 4,
+      "message": "Pepperoni-nya sangat lezat!"
+    },
+    {
+      "id": 18,
+      "menu_id": 10,
+      "user": "Budi",
+      "rating": 5,
+      "message": "Pizza Hawaiian-nya cocok dengan selera saya."
+    },
+    {
+      "id": 19,
+      "menu_id": 10,
+      "user": "Rina",
+      "rating": 4,
+      "message": "Toppingnya enak, tapi bisa lebih banyak."
+    },
+    {
+      "id": 20,
+      "menu_id": 11,
+      "user": "John Doe",
+      "rating": 4,
+      "message": "BBQ Chicken-nya enak!"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "restaurant_id": 1,
+      "menu_id": 1,
+      "quantity": 2,
+      "total_price": 64000,
+      "status": "Delivered",
+      "created_at": "2024-11-01 12:00:00"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "restaurant_id": 2,
+      "menu_id": 5,
+      "quantity": 1,
+      "total_price": 30000,
+      "status": "Preparing",
+      "created_at": "2024-11-02 14:30:00"
+    }
+  ]
+}
